@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00D503E172EBCA200710542 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00D503D172EBCA200710542 /* UIKit.framework */; };
+		A00D5040172EBCA200710542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00D503F172EBCA200710542 /* Foundation.framework */; };
+		A00D5042172EBCA200710542 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00D5041172EBCA200710542 /* CoreGraphics.framework */; };
+		A00D5048172EBCA200710542 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00D5046172EBCA200710542 /* InfoPlist.strings */; };
+		A00D504A172EBCA200710542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00D5049172EBCA200710542 /* main.m */; };
+		A00D504E172EBCA200710542 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A00D504D172EBCA200710542 /* AppDelegate.m */; };
+		A00D5051172EBCA200710542 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00D5050172EBCA200710542 /* ViewController.m */; };
+		A00D5054172EBCA300710542 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00D5052172EBCA300710542 /* ViewController_iPhone.xib */; };
+		A00D5057172EBCA300710542 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00D5055172EBCA300710542 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00D5039172EBCA200710542 /* BlocksTimeout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocksTimeout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00D503D172EBCA200710542 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A00D503F172EBCA200710542 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A00D5041172EBCA200710542 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A00D5045172EBCA200710542 /* BlocksTimeout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksTimeout-Info.plist"; sourceTree = "<group>"; };
+		A00D5047172EBCA200710542 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A00D5049172EBCA200710542 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00D504B172EBCA200710542 /* BlocksTimeout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlocksTimeout-Prefix.pch"; sourceTree = "<group>"; };
+		A00D504C172EBCA200710542 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A00D504D172EBCA200710542 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A00D504F172EBCA200710542 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A00D5050172EBCA200710542 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A00D5053172EBCA300710542 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A00D5056172EBCA300710542 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00D5036172EBCA200710542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00D503E172EBCA200710542 /* UIKit.framework in Frameworks */,
+				A00D5040172EBCA200710542 /* Foundation.framework in Frameworks */,
+				A00D5042172EBCA200710542 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00D502E172EBCA200710542 = {
+			isa = PBXGroup;
+			children = (
+				A00D5043172EBCA200710542 /* BlocksTimeout */,
+				A00D503C172EBCA200710542 /* Frameworks */,
+				A00D503A172EBCA200710542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00D503A172EBCA200710542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00D5039172EBCA200710542 /* BlocksTimeout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00D503C172EBCA200710542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00D503D172EBCA200710542 /* UIKit.framework */,
+				A00D503F172EBCA200710542 /* Foundation.framework */,
+				A00D5041172EBCA200710542 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00D5043172EBCA200710542 /* BlocksTimeout */ = {
+			isa = PBXGroup;
+			children = (
+				A00D504C172EBCA200710542 /* AppDelegate.h */,
+				A00D504D172EBCA200710542 /* AppDelegate.m */,
+				A00D504F172EBCA200710542 /* ViewController.h */,
+				A00D5050172EBCA200710542 /* ViewController.m */,
+				A00D5052172EBCA300710542 /* ViewController_iPhone.xib */,
+				A00D5055172EBCA300710542 /* ViewController_iPad.xib */,
+				A00D5044172EBCA200710542 /* Supporting Files */,
+			);
+			path = BlocksTimeout;
+			sourceTree = "<group>";
+		};
+		A00D5044172EBCA200710542 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00D5045172EBCA200710542 /* BlocksTimeout-Info.plist */,
+				A00D5046172EBCA200710542 /* InfoPlist.strings */,
+				A00D5049172EBCA200710542 /* main.m */,
+				A00D504B172EBCA200710542 /* BlocksTimeout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00D5038172EBCA200710542 /* BlocksTimeout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00D505A172EBCA300710542 /* Build configuration list for PBXNativeTarget "BlocksTimeout" */;
+			buildPhases = (
+				A00D5035172EBCA200710542 /* Sources */,
+				A00D5036172EBCA200710542 /* Frameworks */,
+				A00D5037172EBCA200710542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocksTimeout;
+			productName = BlocksTimeout;
+			productReference = A00D5039172EBCA200710542 /* BlocksTimeout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00D5030172EBCA200710542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = SRAVAN;
+			};
+			buildConfigurationList = A00D5033172EBCA200710542 /* Build configuration list for PBXProject "BlocksTimeout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A00D502E172EBCA200710542;
+			productRefGroup = A00D503A172EBCA200710542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00D5038172EBCA200710542 /* BlocksTimeout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00D5037172EBCA200710542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00D5048172EBCA200710542 /* InfoPlist.strings in Resources */,
+				A00D5054172EBCA300710542 /* ViewController_iPhone.xib in Resources */,
+				A00D5057172EBCA300710542 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00D5035172EBCA200710542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00D504A172EBCA200710542 /* main.m in Sources */,
+				A00D504E172EBCA200710542 /* AppDelegate.m in Sources */,
+				A00D5051172EBCA200710542 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A00D5046172EBCA200710542 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00D5047172EBCA200710542 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A00D5052172EBCA300710542 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00D5053172EBCA300710542 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A00D5055172EBCA300710542 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00D5056172EBCA300710542 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00D5058172EBCA300710542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00D5059172EBCA300710542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00D505B172EBCA300710542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlocksTimeout/BlocksTimeout-Prefix.pch";
+				INFOPLIST_FILE = "BlocksTimeout/BlocksTimeout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A00D505C172EBCA300710542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlocksTimeout/BlocksTimeout-Prefix.pch";
+				INFOPLIST_FILE = "BlocksTimeout/BlocksTimeout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00D5033172EBCA200710542 /* Build configuration list for PBXProject "BlocksTimeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00D5058172EBCA300710542 /* Debug */,
+				A00D5059172EBCA300710542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00D505A172EBCA300710542 /* Build configuration list for PBXNativeTarget "BlocksTimeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00D505B172EBCA300710542 /* Debug */,
+				A00D505C172EBCA300710542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00D5030172EBCA200710542 /* Project object */;
+}
