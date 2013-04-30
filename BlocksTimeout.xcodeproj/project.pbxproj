@@ -16,6 +16,7 @@
 		A00D5051172EBCA200710542 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00D5050172EBCA200710542 /* ViewController.m */; };
 		A00D5054172EBCA300710542 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00D5052172EBCA300710542 /* ViewController_iPhone.xib */; };
 		A00D5057172EBCA300710542 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00D5055172EBCA300710542 /* ViewController_iPad.xib */; };
+		A00D5060172EBCD500710542 /* NSObject+blockTimeout.m in Sources */ = {isa = PBXBuildFile; fileRef = A00D505F172EBCD500710542 /* NSObject+blockTimeout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		A00D5050172EBCA200710542 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A00D5053172EBCA300710542 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		A00D5056172EBCA300710542 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A00D505E172EBCD500710542 /* NSObject+blockTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+blockTimeout.h"; sourceTree = "<group>"; };
+		A00D505F172EBCD500710542 /* NSObject+blockTimeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+blockTimeout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 		A00D502E172EBCA200710542 = {
 			isa = PBXGroup;
 			children = (
+				A00D505D172EBCAE00710542 /* Classes */,
 				A00D5043172EBCA200710542 /* BlocksTimeout */,
 				A00D503C172EBCA200710542 /* Frameworks */,
 				A00D503A172EBCA200710542 /* Products */,
@@ -99,6 +103,15 @@
 				A00D504B172EBCA200710542 /* BlocksTimeout-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A00D505D172EBCAE00710542 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A00D505E172EBCD500710542 /* NSObject+blockTimeout.h */,
+				A00D505F172EBCD500710542 /* NSObject+blockTimeout.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +181,7 @@
 				A00D504A172EBCA200710542 /* main.m in Sources */,
 				A00D504E172EBCA200710542 /* AppDelegate.m in Sources */,
 				A00D5051172EBCA200710542 /* ViewController.m in Sources */,
+				A00D5060172EBCD500710542 /* NSObject+blockTimeout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
